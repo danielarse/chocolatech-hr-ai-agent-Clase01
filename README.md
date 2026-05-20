@@ -1,21 +1,21 @@
-# 🤖 ChocolaTECH HR AI Agent
+# 🤖 ChocolaTECH HR AI Agent - Clase01
 
-AI-powered HR assistant built with n8n, Cohere, PostgreSQL and RAG architecture.
-
----
-
-# 🚀 Features
-
-- 💬 Conversational AI agent
-- 🔎 HR semantic search
-- 🧠 Conversational memory
-- 📚 RAG architecture
-- ⚡ Automated employee support
-- 🏢 Enterprise HR knowledge assistant
+Asistente inteligente para RRHH desarrollado con n8n, Cohere, PostgreSQL y arquitectura RAG.
 
 ---
 
-# 🛠️ Technologies
+# 🚀 Características
+
+- 💬 Agente conversacional IA
+- 🔎 Búsqueda semántica de políticas RRHH
+- 🧠 Memoria conversacional persistente
+- 📚 Arquitectura RAG
+- ⚡ Automatización de atención a empleados
+- 🏢 Asistente empresarial para RRHH
+
+---
+
+# 🛠️ Tecnologías Utilizadas
 
 - ⚙️ n8n
 - 🧠 Cohere
@@ -24,58 +24,72 @@ AI-powered HR assistant built with n8n, Cohere, PostgreSQL and RAG architecture.
 - 📦 Vector Store
 - 🔍 Embeddings
 - 🤖 AI Agent
-- 📚 RAG Architecture
+- 📚 Arquitectura RAG
 
 ---
 
 # 🔄 Workflows
 
-## 📥 Workflow 1 — HR Knowledge Ingestion
+## 📥 Workflow 1 — Ingesta de Conocimiento RRHH
 
-Processes HR documentation into semantic embeddings for AI retrieval.
+Procesa documentación del área de RRHH para convertirla en embeddings semánticos utilizables por IA.
 
-### Includes
+### Incluye
 
-- 📄 Document processing
-- 🔎 Semantic indexing
-- 🧠 Embedding generation
-- 📚 Vector knowledge base
-
----
-
-## 💬 Workflow 2 — HR Conversational Agent
-
-Handles employee queries using semantic retrieval and conversational memory.
-
-### Includes
-
-- 🤖 AI Agent
-- 🧠 Cohere Chat Model
-- 💾 PostgreSQL Conversational Memory
-- 🔎 Vector Retrieval
-- 📚 Knowledge Base Querying
+- 📄 Procesamiento documental
+- 🔎 Indexación semántica
+- 🧠 Generación de embeddings
+- 📚 Base de conocimiento vectorial
 
 ---
 
-# 🏗️ Architecture
+## 💬 Workflow 2 — Agente Conversacional RRHH
 
-This project implements:
+Gestiona consultas de empleados utilizando recuperación semántica y memoria conversacional.
+
+### Incluye
+
+- 🤖 Agente IA
+- 🧠 Modelo Conversacional Cohere
+- 💾 Memoria Conversacional PostgreSQL
+- 🔎 Recuperación Vectorial
+- 📚 Consulta de Base de Conocimiento
+
+---
+
+# 📸 Screenshots
+
+## 📥 Workflow 1 — Ingesta de Conocimiento RRHH
+
+![Workflow Ingesta](screenshots/workflow-ingesta-rrhh.png)
+
+---
+
+## 💬 Workflow 2 — Agente Conversacional RRHH
+
+![Workflow Agente](screenshots/workflow-agente-rrhh.png)
+
+---
+
+# 🏗️ Arquitectura
+
+Este proyecto implementa:
 
 ## 📚 Retrieval-Augmented Generation (RAG)
 
-Combined with:
+combinado con:
 
-- 🧠 Conversational Memory
-- 🔎 Semantic Search
-- ⚡ AI Automation
-- ☁️ Cloud Infrastructure
+- 🧠 Memoria Conversacional
+- 🔎 Búsqueda Semántica
+- ⚡ Automatización IA
+- ☁️ Infraestructura Cloud
 
 ---
 
-# 📂 Project Structure
+# 📂 Estructura del Proyecto
 
 ```bash
-chocolatech-hr-ai-agent/
+chocolatech-hr-ai-agent-Clase01/
 │
 ├── workflows/
 ├── docs/
@@ -86,28 +100,67 @@ chocolatech-hr-ai-agent/
 
 ---
 
-# 🎯 Objectives
+# 🎯 Objetivos
 
-- Automate HR support
-- Improve employee assistance
-- Centralize HR knowledge
-- Reduce repetitive queries
-- Enable intelligent semantic search
+- Automatizar soporte RRHH
+- Mejorar atención a empleados
+- Centralizar conocimiento corporativo
+- Reducir consultas repetitivas
+- Implementar búsqueda semántica inteligente
 
 ---
 
-# 👨‍💻 Author
+# 📚 Documentación Técnica
+
+La documentación técnica detallada se encuentra en:
+
+```bash
+docs/
+```
+
+Incluye:
+
+- Arquitectura RAG
+- Explicación de workflows
+- Stack tecnológico
+- Flujo completo del sistema
+
+---
+
+# 👨‍💻 Autor
 
 Daniel A.
 
 ---
 
-# ⭐ Future Improvements
+# ⭐ Futuras Mejoras
 
-- 🌐 Web interface
-- 🔐 Authentication system
-- 📊 Analytics dashboard
-- 🐳 Docker support
-- 🔄 CI/CD pipeline
-- 📱 WhatsApp integration
-- 🧾 Multi-department support
+- 🌐 Interfaz web
+- 🔐 Sistema de autenticación
+- 📊 Dashboard analítico
+- 🐳 Dockerización
+- 🔄 Pipeline CI/CD
+- 📱 Integración WhatsApp
+- 🧾 Soporte multi-departamento
+
+---
+
+# 🏢 Caso de Uso
+
+El sistema fue diseñado para automatizar consultas internas del área de RRHH mediante inteligencia artificial conversacional, utilizando recuperación semántica de documentación corporativa y memoria persistente para mantener contexto entre interacciones.
+
+---
+
+# 📌 Arquitectura General
+
+```text
+Empleado
+   ↓
+Agente IA RRHH
+   ↓
+Recuperación Semántica
+   ↓
+Base Vectorial RRHH
+   ↓
+Políticas y Documentación
+```
