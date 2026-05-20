@@ -61,13 +61,13 @@ Gestiona consultas de empleados utilizando recuperación semántica y memoria co
 
 ## 📥 Workflow 1 — Ingesta de Conocimiento RRHH
 
-![Workflow Ingesta](screenshots/workflow-ingesta-rrhh.png)
+![Workflow Ingesta](screenshots/Flujo1.png)
 
 ---
 
 ## 💬 Workflow 2 — Agente Conversacional RRHH
 
-![Workflow Agente](screenshots/workflow-agente-rrhh.png)
+![Workflow Agente](screenshots/Flujo2.png)
 
 ---
 
